@@ -16,5 +16,5 @@ jobs:
     -  name: Checkout reposatory
        uses: actions/checchout@v7.0.0
 
-       - name: List reposatory files
-         run: ls -la 
+    - name: List reposatory files
+      run: ls -la 
